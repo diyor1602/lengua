@@ -48,7 +48,7 @@ const CountButton = () => {
 
   return (
     <a
-      href="https://github.com/diyor1602/samandar/releases/download/v1.0.0/app.apk"
+      href="https://github.com/diyor1602/lengua/releases/download/v1.0.0/app-release.apk"
       download
       onClick={handleClick}
       style={{

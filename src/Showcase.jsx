@@ -24,18 +24,20 @@ const Showcase = () => {
             </div>
           </div>
           <div className={styles.buttons}>
-            {/* <button className={styles.button}>
-              <img
-                src={appStore}
-                alt="App Store"
-                width="200px"
-                id="count-button"
-              />
-            </button> */}
+            <button className={styles.button}>
+              <a
+                href="https://apps.apple.com/uz/app/lengua8-language-learning/id6606032144"
+                target="_blank"
+              >
+                <img
+                  src={appStore}
+                  alt="App Store"
+                  width="150px"
+                  id="count-button"
+                />
+              </a>
+            </button>
             <CountButton />
-            {/* <button className={styles.button}>
-              <img src={googlePlay} alt="Google Play" />
-            </button> */}
           </div>
         </div>
         <div className={styles.showcaseImage}>

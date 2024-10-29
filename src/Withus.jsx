@@ -16,9 +16,19 @@ const Withus = () => {
             нас не школа мы приложение все построено на ии
           </div> */}
           <div className={styles.buttons}>
-            {/* <button className={styles.button}>
-              <img src={appStore} alt="App Store" width="200px" />
-            </button> */}
+            <button className={styles.button}>
+              <a
+                href="https://apps.apple.com/uz/app/lengua8-language-learning/id6606032144"
+                target="_blank"
+              >
+                <img
+                  src={appStore}
+                  alt="App Store"
+                  width="150px"
+                  id="count-button"
+                />
+              </a>
+            </button>
             <CountButton className={styles.button} />
             {/* <button className={styles.button}>
               <img src={googlePlay} alt="Google Play" />
